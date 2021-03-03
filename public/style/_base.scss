@@ -1,0 +1,34 @@
+/* Global */
+html body{
+  height: 100vh;
+}
+body {
+	font-family: Arial;
+	font-size: 3em;
+  line-height: 1.5;
+  display:flex;
+  flex-direction: column;
+	
+	background-color: $base-bg-color;
+	color: $base-txt-color;
+	margin: 0;
+}
+
+img {
+  margin: 0 auto;
+  display: block;
+  height:  auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+#content{
+  flex: 1 0 auto;
+  margin: .5em;
+}
+
+.footer{
+  flex-shrink: 0;
+}
